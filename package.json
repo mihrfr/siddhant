@@ -1,0 +1,8 @@
+{
+  "name": "brainrot-chaos",
+  "version": "6.9.420",
+  "description": "CHAOS. NOTHING MAKES SENSE. WELCOME.",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
