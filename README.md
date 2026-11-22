@@ -1,4 +1,4 @@
-# 🔥 SIDDHANT BRAINROT CHAOS ENGINE v6.9.420 🔥
+# 🔥 SIDDHANT BRAINROT CHAOS ENGINE — AUTHENTIC MEME EDITION 🔥
 
 > *"I came, I saw, I Siddhant."* — Albert Einstein, probably.
 
@@ -20,7 +20,7 @@ The Siddhant Chaos Engine operates on **Mudigonda Hyper-Kinetic Tensor Mechanics
          ▼                       ▼                       ▼
 ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
 │   PAWAN ANNA     │    │    MUDIGONDA     │    │  RISHI BOBBILI   │
-│  The Final Boss  │    │  Quantum Matrix  │    │ Jawline Radar 🛰 │
+│  The Final Boss  │    │  Quantum Matrix  │    │ K-Block Sentinel │
 └────────┬─────────┘    └────────┬─────────┘    └────────┬─────────┘
          │                       │                       │
          └───────────────────────┼───────────────────────┘
@@ -28,57 +28,61 @@ The Siddhant Chaos Engine operates on **Mudigonda Hyper-Kinetic Tensor Mechanics
                                  ▼
                   ┌──────────────────────────────┐
                   │   GITAM 0% ATTENDANCE CORE   │
-                  │  Synthesized Vine Booms™     │
+                  │   100% Real Meme Sounds™     │
                   └──────────────────────────────┘
 ```
 
 ---
 
-## ⚡ Functionality Buttons & Chaos Controls
+## 🔊 Sound Effects & Functionality Buttons
 
-The top Control Center provides military-grade brainrot actuators:
+The top Chaos Cockpit features oversized, un-vibecoded retro buttons with real sound synthesis:
 
-| Button | Icon | Functionality |
+| Button | Sound Effect | Functionality |
 | :--- | :---: | :--- |
-| **TACTICAL NUKE** | 💥 | Detonates 200+ floating image particles, shakes the tectonic plates of the DOM, and notifies Hyderabad air control. |
-| **VINE BOOM** | 🔊 | Synthesizes a pure 140Hz-to-28Hz sub-bass audio oscillator shockwave using zero external audio files (100% Web Audio BS). |
-| **SPINOCALYPSE** | 🌪️ | Rotates the simulation 360° through the 4th spatial dimension. |
-| **SUMMON DVD** | 🗿 | Injects another rogue DVD bouncing head into runtime collision detection. Click a bouncer to explode it! |
-| **TURBO 3X** | ⚡ | Overclocks floaters, marquee tickers, and particle velocities by 350%. |
-| **AURA ORACLE** | 🔮 | Consults ancient GITAM canteen prophecies and issues breaking news broadcasts. |
-| **PARTY DISCO** | 🪩 | Rapidly inverts RGB reality using psycho-optical CSS strobe filters. |
-| **RESET PURGE** | 🧼 | Cleanses the canvas simulation buffer and returns order to the universe. |
+| **VINE BOOM** | 💥 Real Vine Boom | Authentic punchy attack, 808 sub-bass pitch dive, and brown-noise cavern rumble. |
+| **METAL PIPE** | 🪈 Falling Metal Pipe | Deafening inharmonic metallic ring modulation + summons 4 extra DVD heads. |
+| **MLG AIRHORN** | 📢 MLG Airhorn | Iconic 5-note fanfare + screen tremor. |
+| **BRUH MOMENT** | 🎺 Vocal "Bruh" | Formant filter bandpass synthesis + greyscale freeze frame. |
+| **REVERB FART** | 💨 Reverb Fart | Frequency-modulated low-end sweep. |
+| **TACO BELL** | 🔔 Taco Bell Bong | Bronze bell partials tolling for the Dean + screen invert. |
+| **BONK HEAD** | 🔨 Cartoon Bonk | Hollow high-pitch wood strike + floating comic text. |
+| **TACTICAL NUKE** | ☢️ Nuclear Boom | Detonates 150+ particles across screen + whiteout flash. |
+| **SPINOCALYPSE** | 🌪️ Boing / Spin | Rotates the simulation 360° at 420 RPM. |
+| **TURBO 4X** | ⚡ Speed Overdrive | Overclocks floaters and tickers by 400% for 5 seconds. |
+| **PAWAN ANNA** | 👹 Boss Summon | Spawns a giant 320px final boss bouncer on the field. |
+| **CANTEEN BIRYANI**| 🍗 Biryani Rain | Airdrops flying chicken biryani across the campus. |
+| **0% ATTENDANCE** | 🚨 Emergency Siren | Flashing red/blue police sirens + Dean alert at K-Block. |
+| **RESET PURGE** | 🧼 Windows Error | Cleanses the canvas buffer and re-bursts fresh. |
+
+> 💡 **Every button click** (including respect badges) plays a random meme sound effect from the sound engine!
 
 ---
 
 ## 🎮 Secret Keyboard Shortcuts
 
-Keep your hands on the home row for maximum mewing efficiency:
-
-- `[B]` — Trigger instant **Vine Boom** + Screen Shake
+- `[B]` — Trigger instant **Authentic Vine Boom** + Screen Shake
+- `[M]` — Trigger **Metal Pipe Sound**
+- `[A]` — Trigger **MLG Airhorn Fanfare**
 - `[N]` — Detonate keyboard-controlled **Tactical Nuke**
 - `[S]` — Summon an additional **DVD Screensaver Bouncer**
-- `[T]` — Toggle **Turbo Hyperdrive (3.5x Speed)**
-- `[Space]` — Explode **Image Cluster Bomb** at random coordinate
-- `[Click Screen]` — Pew-pew laser particles on demand
+- `[T]` — Toggle **Turbo Hyperdrive (4.0x Speed)**
+- `[Space]` — Explode **Image Cluster Bomb** with random meme sound
 
 ---
 
 ## 📊 Live HUD Telemetry
 
-- **Respect Counter**: Click any floating floating respect badge (`PAWAN ANNA`, `SIDDHANT W`, `GITAM UNIVERSITY`, `CANTEEN BIRYANI`) to farm respect points.
-- **Aura Pill (Bottom Center)**: Click the glowing aura counter to siphon **+1,000,000 Aura** straight from the cosmos into your browser cache.
+- **Respect Counter**: Click any chunky floating badge (`PAWAN ANNA`, `SIDDHANT W`, `GITAM UNIVERSITY`, `CANTEEN BIRYANI`, `K-BLOCK CONCLAVE`) to farm respect points.
+- **Aura Pill (Bottom Center)**: Click the arcade counter to siphon **+1,000,000 Aura** straight into your browser cache.
 
 ---
 
 ## 🛠️ Installation & Running the Engine
 
-Requires Node.js (or any potato capable of calculating 1 + 1):
+Requires Node.js:
 
 ```bash
-# Clone the singularity
-git clone <your-repo>
-
 # Run using zero-dependency built-in server
 node server.js
 ```
@@ -89,24 +93,24 @@ Or run via npm:
 npm run dev
 ```
 
-Then visit [http://localhost:3000](http://localhost:3000) and prepare your retinas.
+Then open [http://localhost:3000](http://localhost:3000) or open [index.html](file:///C:/Users/mihir/OneDrive/Documents/siddhant/index.html) directly!
 
 ---
 
 ## 📜 Scientific Equation of State
 
-$$\text{Sigma Quotient} = \tau \cdot \left( \sin^2(t_{\text{mudigonda}}) + \cos^2(t_{\text{pawan}}) \right) \cdot e^{-0.00001 \cdot \text{Respects}}$$
+$$\text{Quantum Quotient} = \tau \cdot \left( \sin^2(t_{\text{mudigonda}}) + \cos^2(t_{\text{pawan}}) \right) \cdot e^{-0.00001 \cdot \text{Respects}}$$
 
-*Proven by AWAN PANNA in the GITAM canteen on the back of a soggy tissue paper.*
+*Derived by AWAN PANNA in the GITAM South Campus canteen on the back of a tissue paper.*
 
 ---
 
 ## 👑 Certified Legends
 
-- **Siddhant** — The Man, The Myth, The Gravitational Center.
+- **Siddhant** — The Man, The Myth, The Supreme Center of Mass.
 - **Pawan Anna & Awan Panna** — Bilateral symmetry champions.
 - **Mudigonda** — C++ Compiler Whisperer.
 - **Maruti Prasad** — Speed record holder on Hyderabad outer ring road.
 - **JD Prabhakar** — 9999 HP Final Boss.
 - **Mukundh & Yellishetty** — Gitam infrastructure pillars.
-- **Rishi Bobbili** — Jawline so sharp it cut the Wi-Fi cable.
+- **Rishi Bobbili** — K-Block guardian.

@@ -1,5 +1,5 @@
 // ============================================================
-//  🔥 SIDDHANT BRAINROT CHAOS ENGINE v6.9.420 — QUANTUM ULTRA 🔥
+//  🔥 SIDDHANT BRAINROT CHAOS ENGINE — AUTHENTIC MEME EDITION 🔥
 // ============================================================
 
 const IMGS = window.IMGS || [
@@ -14,7 +14,7 @@ const cursor = document.getElementById('cursor')
 const W = () => window.innerWidth
 const H = () => window.innerHeight
 
-// ── GLOBAL STATE & CONTROLS (DECLARED FIRST TO PREVENT TDZ) ───
+// ── GLOBAL STATE & CONTROLS (DECLARED FIRST) ──────────────────
 let globalSpeedMultiplier = 1.0
 let totalRespectScore = 0
 let totalAura = 1000000
@@ -37,42 +37,60 @@ const resizeCanvas = () => {
 resizeCanvas()
 window.addEventListener('resize', resizeCanvas)
 
-// ── LORE ROSTER ──────────────────────────────────────────────
+// ── AUTHENTIC GROUP LORE ROSTER (NO TIKTOK WORDS) ─────────────
 const NAMES = [
   'SIDDHANT','PAWAN ANNA','AWAN PANNA','MUDIGONDA',
   'MARUTI PRASAD','JD PRABHAKAR','MUKUNDH','YELLISHETTY',
-  'RISHI BOBBILI','GITAM DEAN','CHAD SIDDHANT','SKIBIDI PRABHAKAR'
+  'RISHI BOBBILI','GITAM DEAN','CHAD SIDDHANT','K-BLOCK BOSS'
 ]
 
 const RESPECT_LABELS = [
-  ['SIDDHANT','🗿'],['GITAM','🏫'],['PAWAN ANNA','💀'],
-  ['MUDIGONDA','🔥'],['RISHI BOBBILI','👑'],['MUKUNDH','🤝'],
-  ['YELLISHETTY','⚡'],['MARUTI PRASAD','🫡'],['JD PRABHAKAR','💪'],
-  ['GITAM UNIVERSITY','🎓'],['AWAN PANNA','🧠'],['SIDDHANT W','🏆'],
-  ['SKIBIDI SIDDHANT','🚽'],['MUDIGONDA MATRIX','🕶️'],['CANTEEN BIRYANI','🍗'],
-  ['0% ATTENDANCE','🚨'],['SIGMA BOBBILI','🗿'],['RIZZLER PRABHAKAR','✨'],
-  ['OVER 9000 AURA','📈'],['PAWAN ANNA FINAL BOSS','👹'],['QUANTUM SIDDHANT','⚛️'],
-  ['FANUM TAX GITAM','🍔'],['MEWING MARUTI','🤫'],['LUNGI POWER','🥋']
+  ['SIDDHANT SUPREME','🗿'],
+  ['GITAM UNIVERSITY','🏫'],
+  ['PAWAN ANNA FINAL BOSS','💀'],
+  ['MUDIGONDA MATRIX','🔥'],
+  ['RISHI BOBBILI','👑'],
+  ['MUKUNDH POWER','🤝'],
+  ['YELLISHETTY OVERDRIVE','⚡'],
+  ['MARUTI PRASAD SPEED','🏎️'],
+  ['JD PRABHAKAR 9999 HP','💪'],
+  ['AWAN PANNA PARADOX','🧠'],
+  ['SIDDHANT W','🏆'],
+  ['K-BLOCK CONCLAVE','🚬'],
+  ['CANTEEN CHICKEN BIRYANI','🍗'],
+  ['0% ATTENDANCE DETAINED','🚨'],
+  ['CHAD BOBBILI','🗿'],
+  ['PRABHAKAR 200KG BENCH','🦾'],
+  ['OVER 9000 AURA','📈'],
+  ['HALL TICKET CONFISCATED','📄'],
+  ['QUANTUM SIDDHANT','⚛️'],
+  ['GITAM BUS NO. 69','🚌'],
+  ['MARUTI FULL THROTTLE','💨'],
+  ['LUNGI SUPREMACY','🥋'],
+  ['SOUTH HYDERABAD CAMPUS','📍'],
+  ['LAB VIVA SURVIVOR','🧪']
 ]
 
 const BRAINROT_PROCLAMATIONS = [
   "📢 ALERT: SIDDHANT JUST PURCHASED GITAM UNIVERSITY FOR 2 RS!",
-  "💀 BREAKING: PAWAN ANNA CANCELLED ALL SEMESTER EXAMS WITH A SINGLE WINK!",
+  "💀 BREAKING: PAWAN ANNA CANCELLED ALL SEMESTER EXAMS WITH A SINGLE NOD!",
   "🕶️ MUDIGONDA JUST COMPILED C++ INSIDE A MICROWAVE OVEN!",
-  "🔥 RISHI BOBBILI'S JAWLINE DETECTED BY NASA SATELLITES!",
-  "⚡ JD PRABHAKAR DEADLIFTED THE ENTIRE K-BLOCK WITH HIS PINKY!",
+  "🔥 RISHI BOBBILI DETECTED BY NASA SATELLITES IN K-BLOCK!",
+  "⚡ JD PRABHAKAR DEADLIFTED THE ENTIRE GITAM ADMIN BLOCK WITH HIS PINKY!",
   "🧠 AWAN PANNA SOLVED QUANTUM GRAVITY WHILE DRINKING CANTEEN CHAI!",
-  "🏆 ATTENDANCE UPDATE: YOU HAVE ATTENDED -420.69% OF CLASSES. DEAN IS CRYING!",
+  "🏆 ATTENDANCE UPDATE: -420.69% RECORDED. HOD IS PERSONALLY WEEPING!",
   "🗿 SIDDHANT ACCIDENTALLY DROPPED +10,000,000 AURA INTO THE HYDERABAD WATER SUPPLY!",
-  "🏎️ MARUTI PRASAD OUTRAN A RAJDHANI EXPRESS ON AN ELECTRIC SCOOTER!",
-  "👑 MUKUNDH DECLARED GITAM HYDERABAD AN INDEPENDENT EMPIRE!"
+  "🏎️ MARUTI PRASAD OUTRAN A RAJDHANI EXPRESS ON AN ACTIVA!",
+  "👑 MUKUNDH DECLARED GITAM HYDERABAD AN INDEPENDENT NUCLEAR POWER!"
 ]
 
 function randColor() { return `hsl(${Math.random()*360},100%,${50+Math.random()*30}%)` }
 function randName()  { return NAMES[Math.floor(Math.random()*NAMES.length)] }
 function randImg()   { return IMGS[Math.floor(Math.random()*IMGS.length)] }
 
-// ── SYNTHETIC AUDIO ENGINE (100% PURE WEB AUDIO BS) ───────────
+// ════════════════════════════════════════════════════════════
+//  AUTHENTIC MEME AUDIO SYNTHESIZER ENGINE (100% PURE WEB AUDIO)
+// ════════════════════════════════════════════════════════════
 let audioCtx = null
 function getAudioCtx() {
   if (!audioCtx) {
@@ -85,81 +103,311 @@ function getAudioCtx() {
   return audioCtx
 }
 
-// Vine boom / Sub bass drop generator
-function playBoomSound() {
+// 1. ACTUAL AUTHENTIC VINE BOOM (Punchy Click + 808 Sub Pitch Drop + Brown Noise Rumble + Distortion)
+function playVineBoom() {
   try {
     const actx = getAudioCtx()
     if (!actx) return
     const now = actx.currentTime
+
+    // --- Sub-Bass Dive ---
     const osc = actx.createOscillator()
-    const gain = actx.createGain()
-
-    osc.type = 'triangle'
-    osc.frequency.setValueAtTime(140, now)
-    osc.frequency.exponentialRampToValueAtTime(28, now + 0.8)
-
-    gain.gain.setValueAtTime(0.9, now)
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.85)
-
-    osc.connect(gain)
-    gain.connect(actx.destination)
-
-    osc.start(now)
-    osc.stop(now + 0.85)
-  } catch (e) { /* audio fallback */ }
-}
-
-// High pitch retro blip
-function playBlipSound(freq = 600) {
-  try {
-    const actx = getAudioCtx()
-    if (!actx) return
-    const now = actx.currentTime
-    const osc = actx.createOscillator()
-    const gain = actx.createGain()
-
+    const oscGain = actx.createGain()
     osc.type = 'sine'
-    osc.frequency.setValueAtTime(freq, now)
-    osc.frequency.exponentialRampToValueAtTime(freq * 1.8, now + 0.12)
+    osc.frequency.setValueAtTime(115, now)
+    osc.frequency.exponentialRampToValueAtTime(32, now + 0.95)
 
-    gain.gain.setValueAtTime(0.3, now)
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.12)
+    // Distortion shaper for thick boom warmth
+    const distortion = actx.createWaveShaper()
+    const n = 2048
+    const curve = new Float32Array(n)
+    for (let i = 0; i < n; ++i) {
+      let x = (i * 2) / n - 1
+      curve[i] = (Math.PI + 40) * x / (Math.PI + 40 * Math.abs(x))
+    }
+    distortion.curve = curve
 
-    osc.connect(gain)
-    gain.connect(actx.destination)
+    oscGain.gain.setValueAtTime(1.4, now)
+    oscGain.gain.exponentialRampToValueAtTime(0.001, now + 1.2)
+
+    osc.connect(distortion)
+    distortion.connect(oscGain)
+    oscGain.connect(actx.destination)
 
     osc.start(now)
-    osc.stop(now + 0.12)
-  } catch (e) { /* audio fallback */ }
+    osc.stop(now + 1.25)
+
+    // --- Low Frequency Brown Noise Cavern Rumble ---
+    const bufLen = Math.floor(actx.sampleRate * 1.3)
+    const noiseBuffer = actx.createBuffer(1, bufLen, actx.sampleRate)
+    const data = noiseBuffer.getChannelData(0)
+    let b0 = 0
+    for (let i = 0; i < bufLen; i++) {
+      let white = Math.random() * 2 - 1
+      b0 = (b0 + (0.04 * white)) / 1.04
+      data[i] = b0 * 4.0
+    }
+    const noiseNode = actx.createBufferSource()
+    noiseNode.buffer = noiseBuffer
+
+    const filter = actx.createBiquadFilter()
+    filter.type = 'lowpass'
+    filter.frequency.setValueAtTime(280, now)
+    filter.frequency.exponentialRampToValueAtTime(35, now + 1.2)
+
+    const noiseGain = actx.createGain()
+    noiseGain.gain.setValueAtTime(1.1, now)
+    noiseGain.gain.exponentialRampToValueAtTime(0.001, now + 1.25)
+
+    noiseNode.connect(filter)
+    filter.connect(noiseGain)
+    noiseGain.connect(actx.destination)
+
+    noiseNode.start(now)
+    noiseNode.stop(now + 1.3)
+  } catch (e) { /* ignore */ }
 }
 
-// Laser Pew Pew
-function playLaserSound() {
+// 2. METAL PIPE FALLING (Dissonant high metallic clang + ringmod)
+function playMetalPipe() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const now = actx.currentTime
+    const freqs = [620, 940, 1250, 1780, 2600, 3450, 4800]
+    freqs.forEach((f, idx) => {
+      const osc = actx.createOscillator()
+      const g = actx.createGain()
+      osc.type = idx % 2 === 0 ? 'square' : 'sawtooth'
+      osc.frequency.setValueAtTime(f + (Math.random() - 0.5) * 60, now)
+      osc.frequency.exponentialRampToValueAtTime(f * 0.75, now + 1.5)
+
+      const bp = actx.createBiquadFilter()
+      bp.type = 'bandpass'
+      bp.frequency.value = f
+      bp.Q.value = 14
+
+      g.gain.setValueAtTime(0.25 / (idx + 1), now)
+      g.gain.exponentialRampToValueAtTime(0.0001, now + 1.2 + Math.random() * 0.4)
+
+      osc.connect(bp)
+      bp.connect(g)
+      g.connect(actx.destination)
+
+      osc.start(now)
+      osc.stop(now + 1.6)
+    })
+  } catch (e) { /* ignore */ }
+}
+
+// 3. MLG AIRHORN (Classic 5-note fanfare)
+function playAirhorn() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const baseFreq = 466.16 // Bb4
+    const notes = [baseFreq, baseFreq, baseFreq, baseFreq * 1.334, baseFreq * 1.5]
+    notes.forEach((p, i) => {
+      const t = actx.currentTime + (i * 0.12)
+      const osc1 = actx.createOscillator()
+      const osc2 = actx.createOscillator()
+      const g = actx.createGain()
+
+      osc1.type = 'sawtooth'
+      osc2.type = 'sawtooth'
+      osc1.frequency.setValueAtTime(p, t)
+      osc2.frequency.setValueAtTime(p * 1.012, t)
+
+      g.gain.setValueAtTime(0.35, t)
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.13)
+
+      osc1.connect(g)
+      osc2.connect(g)
+      g.connect(actx.destination)
+
+      osc1.start(t)
+      osc2.start(t)
+      osc1.stop(t + 0.14)
+      osc2.stop(t + 0.14)
+    })
+  } catch (e) { /* ignore */ }
+}
+
+// 4. BRUH SOUND (Formant vocal synthesis)
+function playBruh() {
   try {
     const actx = getAudioCtx()
     if (!actx) return
     const now = actx.currentTime
     const osc = actx.createOscillator()
-    const gain = actx.createGain()
+    const g = actx.createGain()
 
     osc.type = 'sawtooth'
-    osc.frequency.setValueAtTime(1200, now)
-    osc.frequency.exponentialRampToValueAtTime(80, now + 0.25)
+    osc.frequency.setValueAtTime(140, now)
+    osc.frequency.exponentialRampToValueAtTime(88, now + 0.7)
 
-    gain.gain.setValueAtTime(0.4, now)
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25)
+    const f1 = actx.createBiquadFilter()
+    f1.type = 'bandpass'
+    f1.frequency.setValueAtTime(450, now)
+    f1.frequency.exponentialRampToValueAtTime(320, now + 0.7)
+    f1.Q.value = 6.0
 
-    osc.connect(gain)
-    gain.connect(actx.destination)
+    const f2 = actx.createBiquadFilter()
+    f2.type = 'bandpass'
+    f2.frequency.setValueAtTime(950, now)
+    f2.frequency.exponentialRampToValueAtTime(600, now + 0.7)
+    f2.Q.value = 7.0
+
+    g.gain.setValueAtTime(0.9, now)
+    g.gain.exponentialRampToValueAtTime(0.001, now + 0.75)
+
+    osc.connect(f1)
+    osc.connect(f2)
+    f1.connect(g)
+    f2.connect(g)
+    g.connect(actx.destination)
 
     osc.start(now)
-    osc.stop(now + 0.25)
-  } catch (e) { /* audio fallback */ }
+    osc.stop(now + 0.78)
+  } catch (e) { /* ignore */ }
+}
+
+// 5. REVERB FART (FM flutter sweep)
+function playReverbFart() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const now = actx.currentTime
+    const osc = actx.createOscillator()
+    const mod = actx.createOscillator()
+    const modGain = actx.createGain()
+    const g = actx.createGain()
+
+    mod.frequency.setValueAtTime(28, now)
+    modGain.gain.setValueAtTime(60, now)
+    mod.connect(osc.frequency)
+
+    osc.type = 'sawtooth'
+    osc.frequency.setValueAtTime(95, now)
+    osc.frequency.exponentialRampToValueAtTime(40, now + 0.85)
+
+    g.gain.setValueAtTime(0.9, now)
+    g.gain.exponentialRampToValueAtTime(0.001, now + 1.2)
+
+    osc.connect(g)
+    g.connect(actx.destination)
+
+    mod.start(now)
+    osc.start(now)
+    mod.stop(now + 1.2)
+    osc.stop(now + 1.2)
+  } catch (e) { /* ignore */ }
+}
+
+// 6. TACO BELL BONG (Bronze gong ring)
+function playTacoBell() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const now = actx.currentTime
+    const tones = [220, 440, 665, 888, 1240]
+    tones.forEach((freq, idx) => {
+      const osc = actx.createOscillator()
+      const g = actx.createGain()
+      osc.type = 'sine'
+      osc.frequency.setValueAtTime(freq, now)
+      g.gain.setValueAtTime(0.4 / (idx + 1), now)
+      g.gain.exponentialRampToValueAtTime(0.0001, now + 2.5)
+      osc.connect(g)
+      g.connect(actx.destination)
+      osc.start(now)
+      osc.stop(now + 2.6)
+    })
+  } catch (e) { /* ignore */ }
+}
+
+// 7. CARTOON BONK
+function playBonk() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const now = actx.currentTime
+    const osc = actx.createOscillator()
+    const g = actx.createGain()
+    osc.type = 'sine'
+    osc.frequency.setValueAtTime(800, now)
+    osc.frequency.exponentialRampToValueAtTime(150, now + 0.16)
+    g.gain.setValueAtTime(0.9, now)
+    g.gain.exponentialRampToValueAtTime(0.001, now + 0.18)
+    osc.connect(g)
+    g.connect(actx.destination)
+    osc.start(now)
+    osc.stop(now + 0.2)
+  } catch (e) { /* ignore */ }
+}
+
+// 8. BOING
+function playBoing() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const now = actx.currentTime
+    const osc = actx.createOscillator()
+    const g = actx.createGain()
+    osc.type = 'sine'
+    osc.frequency.setValueAtTime(160, now)
+    osc.frequency.exponentialRampToValueAtTime(950, now + 0.35)
+    g.gain.setValueAtTime(0.7, now)
+    g.gain.exponentialRampToValueAtTime(0.001, now + 0.38)
+    osc.connect(g)
+    g.connect(actx.destination)
+    osc.start(now)
+    osc.stop(now + 0.4)
+  } catch (e) { /* ignore */ }
+}
+
+// 9. WINDOWS ERROR CHORD
+function playWindowsError() {
+  try {
+    const actx = getAudioCtx()
+    if (!actx) return
+    const now = actx.currentTime
+    ;[146, 185, 220].forEach(f => {
+      const osc = actx.createOscillator()
+      const g = actx.createGain()
+      osc.type = 'sawtooth'
+      osc.frequency.setValueAtTime(f, now)
+      g.gain.setValueAtTime(0.35, now)
+      g.gain.exponentialRampToValueAtTime(0.001, now + 0.32)
+      osc.connect(g)
+      g.connect(actx.destination)
+      osc.start(now)
+      osc.stop(now + 0.35)
+    })
+  } catch (e) { /* ignore */ }
+}
+
+// SOUND BANK TO TRIGGER FOR RANDOM BRAINROT
+const RANDOM_MEME_SOUNDS = [
+  playVineBoom,
+  playMetalPipe,
+  playAirhorn,
+  playBruh,
+  playReverbFart,
+  playTacoBell,
+  playBonk,
+  playBoing,
+  playWindowsError
+]
+
+function playRandomMemeSound() {
+  const soundFn = RANDOM_MEME_SOUNDS[Math.floor(Math.random() * RANDOM_MEME_SOUNDS.length)]
+  soundFn()
 }
 
 // ── CURSOR ────────────────────────────────────────────────────
 if (cursor) {
-  const CURSOR_EMOJIS = ['🗿','💀','🤡','🧠','😭','🔥','👁️','🫡','👑','⚡','🚀','🍗']
+  const CURSOR_EMOJIS = ['🗿','💀','🤡','🧠','😭','🔥','👁️','🫡','👑','⚡','🍗','🥋']
   let cursorIdx = 0
   document.addEventListener('mousemove', e => {
     if (e && typeof e.clientX === 'number') {
@@ -181,7 +429,7 @@ setInterval(() => {
   document.body.style.background = BG[bgI]
 }, 2000)
 
-// ── STYLES INJECTION ──────────────────────────────────────────
+// ── RAW UNHINGED RETRO MEME STYLES (NOT VIBECODED) ────────────
 document.head.insertAdjacentHTML('beforeend', `<style>
   @keyframes tiledMove {
     0%   { transform:translate(0,0); }
@@ -206,57 +454,65 @@ document.head.insertAdjacentHTML('beforeend', `<style>
   }
   @keyframes screenShake {
     0%, 100% { transform: translate(0, 0) rotate(0deg); }
-    10% { transform: translate(-15px, -12px) rotate(-1deg); }
-    20% { transform: translate(14px, 10px) rotate(1.5deg); }
-    30% { transform: translate(-12px, 15px) rotate(-1deg); }
-    40% { transform: translate(15px, -10px) rotate(1deg); }
-    50% { transform: translate(-10px, -15px) rotate(-0.5deg); }
-    60% { transform: translate(12px, 12px) rotate(1deg); }
-    70% { transform: translate(-8px, 10px) rotate(-1deg); }
-    80% { transform: translate(10px, -8px) rotate(0.5deg); }
-    90% { transform: translate(-5px, 5px) rotate(0deg); }
+    10% { transform: translate(-18px, -15px) rotate(-1.5deg); }
+    20% { transform: translate(16px, 14px) rotate(2deg); }
+    30% { transform: translate(-14px, 18px) rotate(-1.5deg); }
+    40% { transform: translate(18px, -14px) rotate(1.5deg); }
+    50% { transform: translate(-14px, -18px) rotate(-1deg); }
+    60% { transform: translate(15px, 15px) rotate(1.5deg); }
+    70% { transform: translate(-10px, 12px) rotate(-1deg); }
+    80% { transform: translate(12px, -10px) rotate(0.8deg); }
+    90% { transform: translate(-6px, 6px) rotate(0deg); }
   }
   @keyframes screenSpinAnim {
     0%   { transform: rotate(0deg) scale(1); }
-    50%  { transform: rotate(180deg) scale(0.85); }
+    50%  { transform: rotate(180deg) scale(0.8); }
     100% { transform: rotate(360deg) scale(1); }
   }
   @keyframes floatUpFade {
     0% { transform: translate(-50%, 0) scale(0.8); opacity: 1; }
-    100% { transform: translate(-50%, -70px) scale(1.4); opacity: 0; }
+    100% { transform: translate(-50%, -85px) scale(1.5); opacity: 0; }
   }
-  @keyframes pulseGlow {
-    0%, 100% { transform: scale(1); box-shadow: 0 0 15px rgba(255,255,255,0.4); }
-    50% { transform: scale(1.05); box-shadow: 0 0 35px rgba(255,0,128,0.8); }
+  @keyframes sirenAlert {
+    0%, 100% { background: #ff0000; color: #fff; }
+    50% { background: #0000ff; color: #ffff00; }
   }
 
-  .shaking { animation: screenShake 0.6s cubic-bezier(.36,.07,.19,.97) both; }
+  .shaking { animation: screenShake 0.65s cubic-bezier(.36,.07,.19,.97) both; }
   .spinning { animation: screenSpinAnim 2.5s ease-in-out both; }
 
+  /* RESPECT BUTTONS — BIGGER, UN-VIBECODED RETRO MEME */
   .respect-btn {
-    position:fixed;
-    padding:10px 16px;
-    font-weight:900;
-    font-family:'Impact',sans-serif;
-    font-size:15px;
-    text-transform:uppercase;
-    border:3px solid;
-    cursor:pointer;
-    z-index:10000;
-    letter-spacing:1px;
-    animation:respectPop 0.4s ease-out forwards, floatBounce 2.5s ease-in-out infinite 0.4s;
-    pointer-events:all !important;
-    user-select:none;
-    border-radius: 6px;
-    transition: background 0.15s, color 0.15s;
+    position: fixed;
+    padding: 14px 22px;
+    font-weight: 900;
+    font-family: 'Impact', 'Comic Sans MS', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 4px solid #000;
+    box-shadow: 6px 6px 0px #000;
+    cursor: pointer;
+    z-index: 10000;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    pointer-events: all !important;
+    user-select: none;
+    transition: transform 0.05s, box-shadow 0.05s;
+    animation: respectPop 0.4s ease-out forwards, floatBounce 2.5s ease-in-out infinite 0.4s;
   }
-  .respect-btn:hover { filter:brightness(1.4); transform:scale(1.1) !important; }
-  .respect-btn:active { transform:scale(0.92) !important; }
+  .respect-btn:hover {
+    filter: brightness(1.25);
+    transform: scale(1.1) !important;
+  }
+  .respect-btn:active {
+    transform: translate(4px, 4px) scale(0.95) !important;
+    box-shadow: 2px 2px 0px #000;
+  }
 
-  /* CHAOS CONTROL PANEL */
+  /* RAW UNHINGED MEME COCKPIT (NOT VIBECODED) */
   #chaos-hud {
     position: fixed;
-    top: 36px;
+    top: 32px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -265,87 +521,92 @@ document.head.insertAdjacentHTML('beforeend', `<style>
     gap: 8px;
     z-index: 10002;
     pointer-events: all;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 8px 14px;
-    border-radius: 12px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(8px);
-    box-shadow: 0 0 25px rgba(0,0,0,0.8);
-    max-width: 96vw;
+    background: #ffeb3b;
+    padding: 10px 14px;
+    border: 5px solid #000;
+    box-shadow: 8px 8px 0px #000;
+    max-width: 98vw;
   }
   .chaos-btn {
-    background: #111;
-    color: #fff;
-    border: 2px solid #555;
-    padding: 8px 14px;
-    font-family: 'Impact', sans-serif;
-    font-size: 14px;
+    background: #fff;
+    color: #000;
+    border: 3px solid #000;
+    box-shadow: 4px 4px 0px #000;
+    padding: 11px 18px;
+    font-family: 'Impact', 'Comic Sans MS', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 0px;
     pointer-events: all;
-    transition: all 0.15s ease-in-out;
+    transition: transform 0.05s, box-shadow 0.05s;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
     user-select: none;
   }
   .chaos-btn:hover {
-    transform: translateY(-2px) scale(1.05);
-    border-color: #ff0055;
-    box-shadow: 0 0 15px rgba(255,0,85,0.7);
-    color: #ffff00;
+    background: #00ff66;
+    color: #000;
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #000;
   }
   .chaos-btn:active {
-    transform: translateY(1px) scale(0.95);
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 0px #000;
+    background: #ff0055;
+    color: #fff;
   }
 
-  /* STATS BANNER */
+  /* ARCADE STATS BANNER */
   #chaos-stats {
     position: fixed;
-    bottom: 35px;
+    bottom: 34px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10002;
-    background: rgba(10, 10, 10, 0.85);
-    border: 2px solid #00ffcc;
-    color: #00ffcc;
-    padding: 6px 18px;
-    border-radius: 20px;
-    font-family: 'Courier New', monospace;
+    background: #000;
+    border: 4px solid #00ff66;
+    color: #00ff66;
+    padding: 8px 24px;
+    border-radius: 0px;
+    font-family: 'Impact', monospace;
     font-weight: 900;
-    font-size: 13px;
-    letter-spacing: 1.5px;
+    font-size: 18px;
+    letter-spacing: 2px;
     pointer-events: all;
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(0,255,204,0.4);
-    animation: pulseGlow 3s infinite ease-in-out;
+    box-shadow: 6px 6px 0px #ff0055;
     user-select: none;
     white-space: nowrap;
   }
+  #chaos-stats:hover {
+    background: #00ff66;
+    color: #000;
+  }
 
-  /* AURA ORACLE TOAST */
+  /* TOAST BANNER */
   .toast-modal {
     position: fixed;
-    top: 120px;
+    top: 130px;
     left: 50%;
     transform: translateX(-50%) scale(0.8);
-    background: linear-gradient(135deg, #ff007f, #7928ca, #00dfd8);
-    padding: 16px 28px;
-    border-radius: 12px;
+    background: #ff0055;
+    padding: 18px 32px;
+    border: 5px solid #000;
+    box-shadow: 8px 8px 0px #000;
     color: #fff;
     font-family: 'Impact', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1.5px;
-    text-shadow: 2px 2px 0 #000;
     z-index: 20000;
     pointer-events: none;
     opacity: 0;
-    box-shadow: 0 0 40px rgba(255, 0, 128, 0.8);
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.25s ease-out;
     text-align: center;
-    max-width: 85vw;
+    max-width: 90vw;
   }
   .toast-modal.show {
     opacity: 1;
@@ -354,7 +615,7 @@ document.head.insertAdjacentHTML('beforeend', `<style>
 </style>`)
 
 // ════════════════════════════════════════════════════════════
-//  WALLPAPER — big tiles, always fully visible
+//  WALLPAPER — big tiles
 // ════════════════════════════════════════════════════════════
 function buildWallpaper() {
   const SIZE = 200
@@ -394,7 +655,7 @@ function buildTiledBg() {
 }
 
 // ════════════════════════════════════════════════════════════
-//  FLOATING IMAGES — big, always opaque, slow drift
+//  FLOATING IMAGES
 // ════════════════════════════════════════════════════════════
 class FloatingImg {
   constructor() {
@@ -417,7 +678,7 @@ class FloatingImg {
   mount() {
     const el = document.createElement('img')
     el.src = this.imgSrc
-    el.style.cssText = `position:fixed;left:${this.x}px;top:${this.y}px;width:${this.w}px;height:${this.h}px;object-fit:cover;opacity:0.9;border-radius:6px;border:2px solid rgba(255,255,255,0.4);z-index:${this.zIndex};pointer-events:none;animation:subtleGlow 3s ease-in-out infinite;will-change:transform;`
+    el.style.cssText = `position:fixed;left:${this.x}px;top:${this.y}px;width:${this.w}px;height:${this.h}px;object-fit:cover;opacity:0.9;border-radius:0px;border:3px solid #000;box-shadow:4px 4px 0px #000;z-index:${this.zIndex};pointer-events:none;animation:subtleGlow 3s ease-in-out infinite;will-change:transform;`
     app.appendChild(el)
     this.el = el
   }
@@ -446,7 +707,7 @@ class FloatingImg {
 function buildDVDBouncer(imgSrc, size, startColor) {
   const el = document.createElement('img')
   el.src = imgSrc
-  el.style.cssText = `position:fixed;width:${size}px;height:${size}px;object-fit:cover;z-index:600;pointer-events:all;cursor:pointer;border-radius:8px;animation:dvdHue 4s linear infinite;border:4px solid ${startColor || 'rgba(255,255,255,0.8)'};box-shadow:0 0 20px rgba(255,255,255,0.5);`
+  el.style.cssText = `position:fixed;width:${size}px;height:${size}px;object-fit:cover;z-index:600;pointer-events:all;cursor:pointer;border-radius:0px;animation:dvdHue 4s linear infinite;border:5px solid ${startColor || '#ff0055'};box-shadow:6px 6px 0px #000;`
   document.body.appendChild(el)
 
   let x = Math.random() * (W() - size)
@@ -456,8 +717,8 @@ function buildDVDBouncer(imgSrc, size, startColor) {
 
   el.onclick = (e) => {
     e.stopPropagation()
-    playBoomSound()
-    explode(x + size / 2, y + size / 2, 40)
+    playVineBoom()
+    explode(x + size / 2, y + size / 2, 45)
     addAura(500000)
     triggerScreenShake()
   }
@@ -472,8 +733,7 @@ function buildDVDBouncer(imgSrc, size, startColor) {
     if (y + size >= H()) { y = H() - size; vy = -Math.abs(vy); bounced = true }
     if (bounced) {
       el.style.borderColor = randColor()
-      el.style.boxShadow = `0 0 40px ${randColor()}`
-      playBlipSound(180 + Math.random() * 400)
+      playBonk()
     }
     el.style.left = x + 'px'
     el.style.top = y + 'px'
@@ -489,7 +749,7 @@ function buildDVDBouncer(imgSrc, size, startColor) {
 // ════════════════════════════════════════════════════════════
 function addMarqueeBar(text, topPct, speed, color, bg) {
   const wrap = document.createElement('div')
-  wrap.style.cssText = `position:fixed;top:${topPct}%;left:0;right:0;overflow:hidden;white-space:nowrap;background:${bg};color:${color};font-size:13px;font-weight:700;padding:3px 0;z-index:8500;font-family:Impact,sans-serif;letter-spacing:3px;pointer-events:none;`
+  wrap.style.cssText = `position:fixed;top:${topPct}%;left:0;right:0;overflow:hidden;white-space:nowrap;background:${bg};color:${color};font-size:14px;font-weight:900;padding:4px 0;z-index:8500;font-family:Impact,sans-serif;letter-spacing:3px;pointer-events:none;border-top:2px solid #000;border-bottom:2px solid #000;`
   const inner = document.createElement('div')
   inner.style.cssText = 'display:inline-block;white-space:nowrap;'
   inner.textContent = (text + '    ').repeat(20)
@@ -510,7 +770,7 @@ function addMarqueeBar(text, topPct, speed, color, bg) {
 function updateStatsHUD() {
   const hud = document.getElementById('chaos-stats')
   if (hud) {
-    hud.innerHTML = `🗿 RESPECTS: ${totalRespectScore.toLocaleString()} | ⚡ AURA: +${totalAura.toLocaleString()} | 👑 SIDDHANT: SUPREME`
+    hud.innerHTML = `🗿 RESPECTS: ${totalRespectScore.toLocaleString()} | ⚡ AURA: +${totalAura.toLocaleString()} | 👑 SIDDHANT SUPREME`
   }
 }
 
@@ -519,10 +779,10 @@ function addAura(pts) {
   updateStatsHUD()
 }
 
-function spawnFloatingText(text, x, y, color = '#ffeb3b') {
+function spawnFloatingText(text, x, y, color = '#ffff00') {
   const el = document.createElement('div')
   el.textContent = text
-  el.style.cssText = `position:fixed;left:${x}px;top:${y}px;color:${color};font-family:Impact,sans-serif;font-size:22px;pointer-events:none;z-index:25000;text-shadow:2px 2px 4px #000;animation:floatUpFade 1s cubic-bezier(0.2,0.8,0.2,1) forwards;font-weight:900;letter-spacing:1px;`
+  el.style.cssText = `position:fixed;left:${x}px;top:${y}px;color:${color};font-family:Impact,sans-serif;font-size:26px;pointer-events:none;z-index:25000;text-shadow:3px 3px 0px #000;animation:floatUpFade 1s cubic-bezier(0.2,0.8,0.2,1) forwards;font-weight:900;letter-spacing:1px;`
   document.body.appendChild(el)
   setTimeout(() => el.remove(), 1000)
 }
@@ -534,33 +794,33 @@ function spawnRespectBtn() {
   const [name, emoji] = RESPECT_LABELS[Math.floor(Math.random() * RESPECT_LABELS.length)]
   if (!respectCounts[name]) respectCounts[name] = 0
   const btn = document.createElement('button')
-  const x = 50 + Math.random() * (W() - 240)
-  const y = 75 + Math.random() * (H() - 180)
+  const x = 50 + Math.random() * (W() - 280)
+  const y = 85 + Math.random() * (H() - 190)
   const hue = Math.floor(Math.random() * 360)
   btn.className = 'respect-btn'
   btn.style.left = x + 'px'
   btn.style.top = y + 'px'
-  btn.style.background = `hsl(${hue},70%,18%)`
-  btn.style.color = `hsl(${hue},100%,78%)`
-  btn.style.borderColor = `hsl(${hue},100%,55%)`
+  btn.style.background = `hsl(${hue},90%,35%)`
+  btn.style.color = `#fff`
+  btn.style.borderColor = `#000`
   btn.style.transform = `rotate(${(Math.random()-0.5)*14}deg)`
-  btn.innerHTML = `${emoji} ${name}<br><small style="font-size:11px;font-weight:400;opacity:0.75;">${respectCounts[name]} respects</small>`
+  btn.innerHTML = `${emoji} ${name}<br><small style="font-size:12px;font-weight:700;background:#000;color:#ffff00;padding:2px 6px;display:inline-block;margin-top:4px;">${respectCounts[name]} RESPECTS</small>`
 
   btn.onclick = (e) => {
     e.stopPropagation()
     respectCounts[name]++
     totalRespectScore++
     addAura(100000)
-    playBlipSound(440 + Math.random() * 600)
+    playRandomMemeSound()
     spawnFloatingText(`+1 RESPECT 🗿`, e.clientX, e.clientY)
 
-    btn.innerHTML = `${emoji} ${name}<br><small style="font-size:11px;font-weight:400;opacity:0.75;">${respectCounts[name]} respects ✅</small>`
-    for (let i = 0; i < 26; i++) particles.push(new Particle(x + 80, y + 25))
-    btn.style.background = `hsl(${hue},100%,45%)`
+    btn.innerHTML = `${emoji} ${name}<br><small style="font-size:12px;font-weight:700;background:#000;color:#00ff66;padding:2px 6px;display:inline-block;margin-top:4px;">${respectCounts[name]} RESPECTS ✅</small>`
+    for (let i = 0; i < 28; i++) particles.push(new Particle(x + 80, y + 25))
+    btn.style.background = `#ffff00`
     btn.style.color = '#000'
     setTimeout(() => {
-      btn.style.background = `hsl(${hue},70%,18%)`
-      btn.style.color = `hsl(${hue},100%,78%)`
+      btn.style.background = `hsl(${hue},90%,35%)`
+      btn.style.color = `#fff`
     }, 350)
   }
   document.body.appendChild(btn)
@@ -577,14 +837,14 @@ class Particle {
   constructor(x, y, boost = 1) {
     this.x = x
     this.y = y
-    this.vx = (Math.random() - 0.5) * 22 * boost
-    this.vy = (Math.random() - 0.5) * 22 * boost
+    this.vx = (Math.random() - 0.5) * 24 * boost
+    this.vy = (Math.random() - 0.5) * 24 * boost
     this.life = 1
     this.decay = 0.016 + Math.random() * 0.024
-    this.size = (60 + Math.random() * 150) * Math.min(boost, 1.8)
+    this.size = (70 + Math.random() * 160) * Math.min(boost, 1.8)
     this.img = canvasImgObjs[Math.floor(Math.random() * canvasImgObjs.length)]
     this.rot = Math.random() * Math.PI * 2
-    this.rotSpeed = (Math.random() - 0.5) * 0.14
+    this.rotSpeed = (Math.random() - 0.5) * 0.16
   }
   update() {
     this.x += this.vx
@@ -613,8 +873,8 @@ function explode(x, y, n = 20, boost = 1) {
 
 document.addEventListener('click', e => {
   if (!e.target.closest('button') && !e.target.closest('#chaos-hud') && !e.target.closest('#chaos-stats')) {
-    playLaserSound()
-    explode(e.clientX, e.clientY, 22)
+    playRandomMemeSound()
+    explode(e.clientX, e.clientY, 24)
   }
 })
 
@@ -630,7 +890,7 @@ function triggerScreenShake() {
   document.body.classList.remove('shaking')
   void document.body.offsetWidth
   document.body.classList.add('shaking')
-  setTimeout(() => document.body.classList.remove('shaking'), 600)
+  setTimeout(() => document.body.classList.remove('shaking'), 650)
 }
 
 function triggerScreenSpin() {
@@ -653,101 +913,173 @@ function showToast(msg) {
 }
 
 // ════════════════════════════════════════════════════════════
-//  CHAOS FUNCTIONALITY BUTTONS
+//  CHAOS FUNCTIONALITY BUTTONS (BIGGER & MORE BUTTONS)
 // ════════════════════════════════════════════════════════════
 function buildChaosControls() {
   const hud = document.createElement('div')
   hud.id = 'chaos-hud'
 
+  // Expanded unhinged meme button bank
   const actions = [
     {
-      label: 'TACTICAL NUKE',
+      label: 'VINE BOOM',
       icon: '💥',
       color: '#ff0033',
       action: () => {
-        playBoomSound()
+        playVineBoom()
         triggerScreenShake()
-        addAura(10000000)
-        showToast("☢️ TACTICAL SIDDHANT NUKE DETONATED IN GITAM HYDERABAD!")
-        for (let i = 0; i < 6; i++) {
-          setTimeout(() => {
-            explode(Math.random() * W(), Math.random() * H(), 45, 1.8)
-          }, i * 120)
-        }
+        explode(W() / 2, H() / 2, 50, 1.6)
+        addAura(500000)
+        showToast("💥 REAL VINE BOOM DETONATED!")
       }
     },
     {
-      label: 'VINE BOOM',
-      icon: '🔊',
-      color: '#ffaa00',
+      label: 'METAL PIPE',
+      icon: '🪈',
+      color: '#9e9e9e',
       action: () => {
-        playBoomSound()
+        playMetalPipe()
         triggerScreenShake()
-        explode(W() / 2, H() / 2, 50, 1.5)
-        addAura(250000)
+        for (let i = 0; i < 4; i++) {
+          buildDVDBouncer(randImg(), 180 + Math.random() * 80, randColor())
+        }
+        showToast("🪈 METAL PIPE HAS FALLEN IN K-BLOCK CORRIDOR!")
+      }
+    },
+    {
+      label: 'MLG AIRHORN',
+      icon: '📢',
+      color: '#ffeb3b',
+      action: () => {
+        playAirhorn()
+        triggerScreenShake()
+        showToast("📢 360 NO-SCOPE CONFIRMED BY PAWAN ANNA!")
+        addAura(420000)
+      }
+    },
+    {
+      label: 'BRUH MOMENT',
+      icon: '🎺',
+      color: '#795548',
+      action: () => {
+        playBruh()
+        document.body.style.filter = 'grayscale(1)'
+        setTimeout(() => { document.body.style.filter = 'none' }, 800)
+        showToast("🗿 CERTIFIED BRUH MOMENT IN PROGRESS...")
+      }
+    },
+    {
+      label: 'REVERB FART',
+      icon: '💨',
+      color: '#8bc34a',
+      action: () => {
+        playReverbFart()
+        triggerScreenShake()
+        showToast("💨 CANTEEN CHANA MASALA REVERB FART RELEASED!")
+      }
+    },
+    {
+      label: 'TACO BELL',
+      icon: '🔔',
+      color: '#9c27b0',
+      action: () => {
+        playTacoBell()
+        document.body.style.filter = 'invert(1)'
+        setTimeout(() => { document.body.style.filter = 'none' }, 350)
+        showToast("🔔 THE COSMIC TACO BELL TOLLS FOR THE DEAN!")
+      }
+    },
+    {
+      label: 'BONK HEAD',
+      icon: '🔨',
+      color: '#ff9800',
+      action: () => {
+        playBonk()
+        spawnFloatingText("💥 BONK! 💥", W() / 2, H() / 2, '#ff0055')
+        explode(W() / 2, H() / 2, 25)
+      }
+    },
+    {
+      label: 'TACTICAL NUKE',
+      icon: '☢️',
+      color: '#f44336',
+      action: () => {
+        playVineBoom()
+        triggerScreenShake()
+        addAura(10000000)
+        showToast("☢️ TACTICAL SIDDHANT NUKE DETONATED IN GITAM HYDERABAD!")
+        for (let i = 0; i < 7; i++) {
+          setTimeout(() => {
+            explode(Math.random() * W(), Math.random() * H(), 45, 1.8)
+          }, i * 110)
+        }
       }
     },
     {
       label: 'SPINOCALYPSE',
       icon: '🌪️',
-      color: '#00e5ff',
+      color: '#00bcd4',
       action: () => {
-        playLaserSound()
+        playBoing()
         triggerScreenSpin()
-        showToast("🌀 REALITY DISTORTION FIELD AT 420% RPM!")
+        showToast("🌀 REALITY ROTATING AT 420 RPM!")
         addAura(500000)
       }
     },
     {
-      label: 'SUMMON DVD',
-      icon: '🗿',
-      color: '#e040fb',
-      action: () => {
-        playBlipSound(880)
-        buildDVDBouncer(randImg(), 200 + Math.random() * 120, randColor())
-        showToast("✨ A NEW SIDDHANT BOUNCER HAS ENTERED THE MATRIX!")
-        addAura(300000)
-      }
-    },
-    {
-      label: 'TURBO 3X',
+      label: 'TURBO 4X',
       icon: '⚡',
-      color: '#ffeb3b',
+      color: '#cddc39',
       action: () => {
-        playLaserSound()
-        globalSpeedMultiplier = 3.5
-        showToast("⚡ OVERCLOCK ACTIVATED: 3.5X RELATIVISTIC VELOCITY!")
+        playAirhorn()
+        globalSpeedMultiplier = 4.0
+        showToast("⚡ TURBO OVERCLOCK: 4.0X RELATIVISTIC VELOCITY!")
         setTimeout(() => {
           globalSpeedMultiplier = 1.0
         }, 5000)
       }
     },
     {
-      label: 'AURA ORACLE',
-      icon: '🔮',
-      color: '#76ff03',
+      label: 'SUMMON PAWAN ANNA',
+      icon: '👹',
+      color: '#e91e63',
       action: () => {
-        playBlipSound(700)
-        const proclamation = BRAINROT_PROCLAMATIONS[Math.floor(Math.random() * BRAINROT_PROCLAMATIONS.length)]
-        showToast(proclamation)
-        addAura(777777)
+        playVineBoom()
+        const boss = buildDVDBouncer(randImg(), 320, '#ff0000')
+        showToast("👹 FINAL BOSS PAWAN ANNA HAS ENTERED THE FIELD!")
+        addAura(1000000)
       }
     },
     {
-      label: 'PARTY DISCO',
-      icon: '🪩',
-      color: '#ff4081',
+      label: 'CANTEEN BIRYANI',
+      icon: '🍗',
+      color: '#ff5722',
       action: () => {
-        playLaserSound()
-        let count = 0
-        const interval = setInterval(() => {
-          document.body.style.filter = `invert(${Math.random() > 0.5 ? 1 : 0}) hue-rotate(${Math.random() * 360}deg)`
-          count++
-          if (count > 18) {
-            clearInterval(interval)
-            document.body.style.filter = 'none'
+        playBoing()
+        for (let i = 0; i < 15; i++) {
+          setTimeout(() => {
+            spawnFloatingText("🍗 BIRYANI 🍗", Math.random() * W(), Math.random() * H(), '#ffaa00')
+          }, i * 80)
+        }
+        showToast("🍗 EMERGENCY BIRYANI AIRDROP DELIVERED TO SOUTH CAMPUS!")
+      }
+    },
+    {
+      label: '0% ATTENDANCE',
+      icon: '🚨',
+      color: '#f44336',
+      action: () => {
+        playWindowsError()
+        showToast("🚨 ATTENDANCE DETAINED: DEAN DEPLOYED TO K-BLOCK!")
+        let flashes = 0
+        const siren = setInterval(() => {
+          document.body.style.background = flashes % 2 === 0 ? '#ff0000' : '#0000ff'
+          flashes++
+          if (flashes > 12) {
+            clearInterval(siren)
+            document.body.style.background = '#111'
           }
-        }, 150)
+        }, 120)
       }
     },
     {
@@ -755,8 +1087,9 @@ function buildChaosControls() {
       icon: '🧼',
       color: '#ffffff',
       action: () => {
+        playWindowsError()
         particles.length = 0
-        explode(W() / 2, H() / 2, 30)
+        explode(W() / 2, H() / 2, 35)
         showToast("🧹 THE SIMULATION HAS BEEN SCRUBBED SQUEAKY CLEAN!")
       }
     }
@@ -765,10 +1098,10 @@ function buildChaosControls() {
   actions.forEach(act => {
     const btn = document.createElement('button')
     btn.className = 'chaos-btn'
-    btn.innerHTML = `<span>${act.icon}</span> <span>${act.label}</span>`
-    btn.style.borderColor = act.color
+    btn.innerHTML = `<span style="font-size: 20px;">${act.icon}</span> <span>${act.label}</span>`
     btn.onclick = (e) => {
       e.stopPropagation()
+      playRandomMemeSound()
       act.action()
     }
     hud.appendChild(btn)
@@ -782,42 +1115,49 @@ function buildChaosControls() {
   stats.title = "Click to absorb infinite aura"
   stats.onclick = (e) => {
     e.stopPropagation()
+    playRandomMemeSound()
     addAura(1000000)
-    playBlipSound(990)
-    spawnFloatingText("+1,000,000 AURA ✨", e.clientX, e.clientY, '#00ffcc')
-    explode(e.clientX, e.clientY, 15)
+    spawnFloatingText("+1,000,000 AURA ✨", e.clientX, e.clientY, '#00ff66')
+    explode(e.clientX, e.clientY, 20)
   }
   document.body.appendChild(stats)
   updateStatsHUD()
 }
 
 // ════════════════════════════════════════════════════════════
-//  KEYBOARD BS SHORTCUTS
+//  KEYBOARD MEME SHORTCUTS
 // ════════════════════════════════════════════════════════════
 document.addEventListener('keydown', (e) => {
   const k = e.key.toUpperCase()
   if (k === 'B') {
-    playBoomSound()
+    playVineBoom()
     triggerScreenShake()
     explode(W() / 2, H() / 2, 35)
+  } else if (k === 'M') {
+    playMetalPipe()
+    triggerScreenShake()
+  } else if (k === 'A') {
+    playAirhorn()
   } else if (k === 'N') {
-    playBoomSound()
+    playVineBoom()
     triggerScreenShake()
     explode(W() / 2, H() / 2, 100, 2)
     showToast("☢️ KEYBOARD NUKE INITIATED!")
   } else if (k === 'S') {
     buildDVDBouncer(randImg(), 220, randColor())
+    playBonk()
   } else if (k === 'T') {
-    globalSpeedMultiplier = globalSpeedMultiplier === 1.0 ? 3.5 : 1.0
+    globalSpeedMultiplier = globalSpeedMultiplier === 1.0 ? 4.0 : 1.0
   } else if (k === ' ') {
+    playRandomMemeSound()
     explode(Math.random() * W(), Math.random() * H(), 30)
   }
 })
 
 // ════════════════════════════════════════════════════════════
-//  SOME ADVANCED BS SCIENTIFIC CALCULATIONS & CONSOLE EASTER EGGS
+//  AUTHENTIC GROUP BS CALCULATIONS & CONSOLE EASTER EGGS
 // ════════════════════════════════════════════════════════════
-function calculateSiddhantSigmaQuotient() {
+function calculateSiddhantQuantumQuotient() {
   const tau = Math.PI * 2
   const mudigondaTensor = Math.sin(Date.now() / 1000) * 420
   const pawanAnnaEigenvalue = Math.cos(Date.now() / 690) * 1337
@@ -826,15 +1166,15 @@ function calculateSiddhantSigmaQuotient() {
 }
 
 function pawanAnnaHarmonicConvergence() {
-  return `Convergence confirmed: Sigma quotient = ${calculateSiddhantSigmaQuotient()} mega-chads per second.`
+  return `Convergence confirmed: Quantum quotient = ${calculateSiddhantQuantumQuotient()} chad units per second.`
 }
 
 // Periodic BS log to console
 setInterval(() => {
   const bsQuotes = [
-    `[QUANTUM SIDDHANT KERNEL] Sigma Index: ${calculateSiddhantSigmaQuotient()} | Gitam Firewall Status: OVERRIDDEN`,
-    `[PAWAN ANNA MONITOR] Aura level fluxuating around ${totalAura} micro-Mewings`,
-    `[CANTEEN SATELLITE] 100% chance of biryani detected in South Hyderabad campus`,
+    `[QUANTUM SIDDHANT KERNEL] Quotient: ${calculateSiddhantQuantumQuotient()} | Gitam Firewall Status: OVERRIDDEN`,
+    `[PAWAN ANNA MONITOR] Aura level fluctuating around ${totalAura} micro-joules`,
+    `[CANTEEN SATELLITE] 100% chance of hot chicken biryani detected in South Hyderabad campus`,
     `[MUDIGONDA COMPILED] Successfully mapped 10 JPEG particles onto 11th dimension`
   ]
   console.log(`%c ${bsQuotes[Math.floor(Math.random() * bsQuotes.length)]} `, 'background: #222; color: #00ffaa; font-family: monospace; padding: 4px;')
@@ -853,8 +1193,8 @@ setInterval(() => {
 function initEngine() {
   buildWallpaper()
   buildTiledBg()
-  addMarqueeBar('🔥 SIDDHANT 🔥 PAWAN ANNA 🔥 MUDIGONDA 🔥 RISHI BOBBILI 🔥 MUKUNDH 🔥 YELLISHETTY 🔥', 0, 2, '#000', 'rgba(255,220,0,0.92)')
-  addMarqueeBar('💀 MARUTI PRASAD 💀 JD PRABHAKAR 💀 MUKUNDH 💀 YELLISHETTY 💀 AWAN PANNA 💀', 96.2, 2.5, '#fff', 'rgba(180,0,0,0.92)')
+  addMarqueeBar('🔥 SIDDHANT 🔥 PAWAN ANNA 🔥 MUDIGONDA 🔥 RISHI BOBBILI 🔥 MUKUNDH 🔥 YELLISHETTY 🔥', 0, 2, '#000', 'rgba(255,220,0,0.95)')
+  addMarqueeBar('💀 MARUTI PRASAD 💀 JD PRABHAKAR 💀 MUKUNDH 💀 YELLISHETTY 💀 AWAN PANNA 💀', 96.2, 2.5, '#fff', 'rgba(180,0,0,0.95)')
   buildChaosControls()
 
   // 50 big floating images
@@ -865,8 +1205,8 @@ function initEngine() {
   }
 
   // DVD bouncers — img 2 (index 1) and img 8 (index 7)
-  buildDVDBouncer(IMGS[1 % IMGS.length], 260, '#ff0')
-  buildDVDBouncer(IMGS[7 % IMGS.length], 220, '#0ff')
+  buildDVDBouncer(IMGS[1 % IMGS.length], 260, '#ff0055')
+  buildDVDBouncer(IMGS[7 % IMGS.length], 220, '#00ff66')
 
   // 12 respect buttons scattered around
   for (let i = 0; i < 12; i++) {
@@ -911,7 +1251,7 @@ function initEngine() {
   ███████║██║██████╔╝██████╔╝██║  ██║██║  ██║██║ ╚████║   ██║   
   ╚══════╝╚═╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   
   `, 'color: #ff0055; font-weight: bold;')
-  console.log('%c 🔥 SIDDHANT ENGINE v6.9.420 LOADED — AURA CERTIFIED 🗿', 'font-size:20px;font-weight:900;color:#ffff00;background:#000;padding:10px;border:2px solid #ff0055;')
+  console.log('%c 🔥 SIDDHANT ENGINE v6.9.420 LOADED — AUTHENTIC MEME EDITION 🗿', 'font-size:20px;font-weight:900;color:#ffff00;background:#000;padding:10px;border:3px solid #ff0055;')
   console.log(pawanAnnaHarmonicConvergence())
 }
 
